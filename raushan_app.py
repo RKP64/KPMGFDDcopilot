@@ -131,7 +131,7 @@ if st.button("Submit"):
         prompt = (
             f"Context:\n{context}\n\n"
             f"Question: {question}\n\n"
-            f"Answer concisely as ONLY bullet points to Mr. Pandey and include references. dont say anything simply refuse if anything which is not there in your context being asked follow it strictly Return the answer as a table or graph if possible. Highlight important figures from the tables and graphs. Return follow-up questions in a list of questions format."
+            f"Answer like you are a airport domain expert when ask about fouth control period only give information about fourth control period nothing else and if asked about thirc ontrol period only goive information about third control period .when i ma asking about traffic need information from international and domestic and all its sub bifurcation."
         )
 
         try:
